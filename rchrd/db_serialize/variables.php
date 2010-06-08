@@ -11,5 +11,5 @@ define('BASE_DIR', 'http://example.com/');
 define('DEBUG', TRUE);
 
 /* SITE VARS */
-define('ADMIN_USER', 'user');
-define('ADMIN_PASS', 'pass');
+define('ADMIN_USER', 'username');
+define('ADMIN_PASS', 'password');
