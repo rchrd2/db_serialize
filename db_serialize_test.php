@@ -43,7 +43,6 @@ connect_db();
 // $dman = get_object('DirectorMan', 1);
  
 // $dir = $dman->createDirector();
-// $dir = get_object('Director', 1);
 // $proj = $dir->createProject(); 
 // $proj->filename = 'myfile.txt';
 // $proj->is_public = true;
@@ -63,6 +62,8 @@ connect_db();
 // insert_object('BiographyText', $obj);
 //
 // print_r(get_objects('BiographyText'));
+// print_r(get_objects('Director'));
+// print_r(get_objects('Projects'));
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
